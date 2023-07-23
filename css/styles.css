@@ -120,14 +120,26 @@ footer {
 .adventure-card {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  height: 20rem;
+  border-radius: 8px;
+
+  
 }
+
+
 .adventure-card img {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+  overflow: hidden;
+  transition: 0.2s all;
 }
 .adventure-card img:hover {
   /* TODO: MODULE_ADVENTURES_GRID */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
 }
 
 /* ================================== */
@@ -137,7 +149,7 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
-
+  
 }
 
 .adventure-card-image {
