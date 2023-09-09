@@ -57,7 +57,7 @@ footer {
   flex-direction: column;
   align-items: center;
   justify-content: flex-end;
-  border-radius: 8px;
+  /* border-radius: 8px; */
   overflow: hidden;
 }
 .tile img {
@@ -149,16 +149,26 @@ footer {
 .adventure-detail-card {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  border: 1px solid lightgray;
+  border-radius: 4px;
   
 }
 
 .adventure-card-image {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 .adventure-card-image:hover {
   /* TODO: MODULE_ADVENTURE_DETAILS */
   /* 1. Fill in the required properties. */
+  filter: brightness(50%);
+}
+.resort-status{
+  border: 1px solid lightgray;
+  border-radius: 4px;
 }
 .experience-content ul li {
   margin-left: 16px;

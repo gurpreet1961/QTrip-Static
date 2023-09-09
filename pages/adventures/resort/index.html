@@ -1,35 +1,148 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>QTrip Adventure Detail</title>
+    <link rel="stylesheet" href="../../../css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+  </head>
 
-<head>
-   <meta charset="UTF-8" />
-   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-   <title>QTrip Adventure Detail</title>
-   <link rel="stylesheet" href="../../../css/styles.css" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-</head>
-
-<body>
-   <!-- TODO: MODULE_ADVENTURE_DETAILS -->
-   <!-- 1. Copy navigation bar HTML from Landing page document -->
-
-   <div class="container">
-      <div class="content">
-          <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
-          <!-- 1. Write the child elements as required. -->
-          <!-- 2. Remember to use .adventure-card and its related classes. -->
-
+  <body>
+    <!-- TODO: MODULE_ADVENTURE_DETAILS -->
+    <!-- 1. Copy navigation bar HTML from Landing page document -->
+    <nav class="navbar navbar-expand-sm navbar-light bg-light p-3">
+      <!-- <div class="container-fluid"> -->
+      <a class="navbar-brand" href="/">QTrip</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav d-flex justify-content-end w-100">
+          <li class="nav-item">
+            <a class="nav-link" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/adventures/">Explore</a>
+          </li>
+        </ul>
+        <!-- </div> -->
       </div>
-   </div>
-   <footer>
+    </nav>
+
+    <div class="container">
+      <div class="content">
+        <!-- TOOD: MODULE_ADVENTURE_DETAILS -->
+        <!-- 1. Write the child elements as required. -->
+        <!-- 2. Remember to use .adventure-card and its related classes. -->
+
+        <div class="row">
+          <div class="col-lg-8">
+            <div class="adventure-detail-card p-4 mb-4">
+              <!-- Image Grid -->
+              <div class="row">
+                <div class="col-lg-8">
+                  <img
+                    class="adventure-card-image"
+                    src="../../../assets/adventures/resort/resort1.jpg"
+                    alt="big Image"
+                  />
+                </div>
+                <div class="col-lg-4 d-lg-flex flex-column d-none">
+                  <img
+                    class="adventure-card-image mb-3"
+                    src="../../../assets/adventures/resort/resort2.jpg"
+                    alt="small image1"
+                  />
+                  <img
+                    class="adventure-card-image"
+                    src="../../../assets/adventures/resort/resort3.jpg"
+                    alt="small image2"
+                  />
+                </div>
+              </div>
+              <!-- Name and quote of resort -->
+              <div>
+                <h2>Sunshine Resort</h2>
+                <p style="color: gray">Relex and unwind yourself</p>
+              </div>
+
+              <hr />
+              <!-- About the Experience -->
+              <div>
+                <h4>About the Experience</h4>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Voluptas at fuga aspernatur optio nesciunt possimus, et, quas
+                  molestiae iure maxime nihil distinctio numquam deserunt quod
+                  corrupti? Iste quas est repudiandae id, blanditiis, sequi ad
+                  facilis omnis optio eum voluptatum. Aliquid nobis harum at
+                  fugiat nisi hic, facere soluta quas. Fuga odit id animi nemo
+                  tempora excepturi accusamus magnam ducimus quasi, culpa,
+                  soluta facere? Quam, itaque adipisci, nobis necessitatibus
+                  aperiam id nam ea vitae mollitia neque eum, accusantium
+                  accusamus eos ex rerum! Nulla corrupti voluptate excepturi.
+                  Natus obcaecati aspernatur delectus similique consequatur,
+                  voluptate, officiis fuga nisi illo ipsam deleniti impedit
+                  possimus!
+                </p>
+                <p>Inclusions</p>
+                <ul>
+                  <li>Swimming Pool Access</li>
+                  <li>Spa Access</li>
+                  <li>Gym And Workout</li>
+                  <li>Parking</li>
+                  <li>Playing Ground</li>
+                </ul>
+                <p>Know before you go</p>
+                <ul>
+                  <li>Game Accessories need to purchase</li>
+                  <li>
+                    childer need to be with parents or guardian all the time
+                  </li>
+                  <li>Need Govt. ID Proof</li>
+                  <li>Pool is age restricted</li>
+                </ul>
+                <p>Not Included</p>
+                <ul>
+                  <li>Swimwear</li>
+                  <li>Pickup and Drop</li>
+                  <li>Towel</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="resort-status p-3">
+              <h4>Sold Out!</h4>
+              <hr />
+              <p>
+                This adventure is currently sold out. But there's lot more to
+                <a href="../" style="color: orange !important">explore</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
       <div class="container">© QTrip 2020</div>
-   </footer>
+    </footer>
 
-  <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"
-  ></script>
-</body>
-
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
