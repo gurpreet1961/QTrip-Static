@@ -1,4 +1,6 @@
 # QTrip-Static
+**Live Demo: **
+https://gurpreetqtripstatic.netlify.app/
 
 <div class=""><section class="styles_milestone__Qzjm7" id="overview"><div class="html-parser"><div><div class=""><span class="leading-relaxed "><h1>Overview</h1>
 <p>QTrip is a travel website aimed at travellers looking for a multitude of adventures in different cities.&nbsp;</p>
